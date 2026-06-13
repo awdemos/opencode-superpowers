@@ -23,7 +23,7 @@ This is a **universalized version** of the Superpowers development workflow, abs
 | **[UNIVERSAL_WORKFLOW.md](UNIVERSAL_WORKFLOW.md)** | Complete workflow - Feature development (7 stages) and Debug mode (4 phases) |
 | **[CONFIGURATION.md](CONFIGURATION.md)** | How to adapt the workflow to your technology stack |
 
-> **Note:** The original Superpowers workflow also includes `PRINCIPLES.md`, `WORKFLOW.md`, `TEMPLATES.md`, and `TROUBLESHOOTING.md`. These are not bundled here; obtain them from the [Superpowers repository](https://github.com/obra/superpowers) if needed.
+> **Note:** The original Superpowers workflow also includes `PRINCIPLES.md`, `WORKFLOW.md`, `TEMPLATES.md`, and `TROUBLESHOOTING.md`. These are not bundled here; obtain them from the [Superpowers repository](https://github.com/awdemos/opencode-superpowers) if needed.
 
 ---
 

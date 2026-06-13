@@ -38,14 +38,14 @@ This skill assumes OpenCode is installed and available on your system. If not, i
 mkdir -p ~/.config/opencode
 
 # Clone superpowers repository
-git clone --depth 1 https://github.com/obra/superpowers.git ~/.config/opencode/superpowers
+git clone --depth 1 https://github.com/awdemos/opencode-superpowers.git ~/.config/opencode/superpowers
 ```
 
 **Windows (PowerShell):**
 
 ```powershell
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.config\opencode"
-git clone --depth 1 https://github.com/obra/superpowers.git "$env:USERPROFILE\.config\opencode\superpowers"
+git clone --depth 1 https://github.com/awdemos/opencode-superpowers.git "$env:USERPROFILE\.config\opencode\superpowers"
 ```
 
 ### Step 3: Create Skill Links

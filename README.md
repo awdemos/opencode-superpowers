@@ -1,6 +1,6 @@
 # OpenCode Superpowers
 
-Install and configure [Superpowers](https://github.com/obra/superpowers) workflow for [OpenCode](https://github.com/opencode-ai/opencode/).
+Install and configure [Superpowers](https://github.com/awdemos/opencode-superpowers) workflow for [OpenCode](https://github.com/opencode-ai/opencode/).
 
 ## What is this?
 
@@ -46,8 +46,8 @@ https://raw.githubusercontent.com/YOUR_USERNAME/opencode-superpowers/main/SKILL.
 
 ## Installation Overview
 
-1. **Clone** the superpowers repository to `~/.config/opencode/superpowers/`
-2. **Link** skills from superpowers to `~/.config/opencode/skills/`
+1. **Clone** this repository to `~/.config/opencode/superpowers/`
+2. **Link** skills from `~/.config/opencode/superpowers/skills/` to `~/.config/opencode/skills/`
 3. **Patch** the `using-superpowers` skill for OpenCode compatibility
 4. **Copy** `prompts/AGENTS.md.template` into your project root (optional)
 5. **Install** the Universal Workflow documents into your project (optional)
@@ -98,7 +98,7 @@ See the "Uninstallation" section in `SKILL.md` for detailed steps.
 
 ## Credits
 
-- [Superpowers](https://github.com/obra/superpowers) by Jesse Vincent
+- [Superpowers](https://github.com/awdemos/opencode-superpowers) by Jesse Vincent
 - [OpenCode](https://github.com/opencode-ai/opencode/)
 - Original Kimi adapter by [Dqz00116](https://github.com/Dqz00116)
 
