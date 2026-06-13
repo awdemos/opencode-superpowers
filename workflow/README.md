@@ -23,7 +23,7 @@ This is a **universalized version** of the Superpowers development workflow, abs
 | **[UNIVERSAL_WORKFLOW.md](UNIVERSAL_WORKFLOW.md)** | Complete workflow - Feature development (7 stages) and Debug mode (4 phases) |
 | **[CONFIGURATION.md](CONFIGURATION.md)** | How to adapt the workflow to your technology stack |
 
-> **Note:** The original Superpowers workflow also includes `PRINCIPLES.md`, `WORKFLOW.md`, `TEMPLATES.md`, and `TROUBLESHOOTING.md`. These are not bundled here; obtain them from the [Superpowers repository](https://github.com/awdemos/opencode-superpowers) if needed.
+> **Note:** The original Superpowers workflow also includes `PRINCIPLES.md`, `WORKFLOW.md`, `TEMPLATES.md`, and `TROUBLESHOOTING.md`. These are not bundled here; obtain them from the [Superpowers repository](https://github.com/obra/superpowers) if needed.
 
 ---
 
@@ -48,29 +48,48 @@ Q3: Stuck? [YES → See Troubleshooting]
 ## Adapting to Your Project
 
 To use this workflow with a specific project, create:
+### PROJECT_CONFIG.yaml
 
-### PROJECT_CONTEXT.md
 ```yaml
-Stack:
-  Language: [python|typescript|csharp|go|rust|...]
-  Version: [version]
-  TestFramework: [pytest|jest|xunit|go test|cargo test|...]
-  BuildTool: [npm|dotnet|cargo|make|...]
+---
+# Universal Workflow Configuration
+name: "your-project-name"
+extends: "universal-workflow-v1.0"
+---
 
-Constraints:
-  - Zero warnings
-  - [Other project constraints]
+stack:
+  name: "Your Stack Name"
+  language: python|typescript|go|rust|...
+  language_version: "3.11"
+  framework: fastapi|react|gin|...
+  framework_version: "0.104"
 
-Key Commands:
-  Build: [build command]
-  Test: [test command]
-  Lint: [lint command]
-  Regression: [regression test command]
+commands:
+  test: "your test command"
+  test_unit: "your unit test command"
+  test_integration: "your integration test command"
+  build: "your build command"
+  lint: "your lint command"
+  format: "your format command"
+  type_check: "your type-check command"
 
-Paths:
-  DesignDocs: [where to put design docs]
-  Plans: [where to put implementation plans]
+paths:
+  design_docs: "docs/designs/"
+  plans: "docs/plans/"
+  source: "src/"
+  tests:
+    root: "tests/"
+    unit: "tests/unit/"
+    integration: "tests/integration/"
+  docs: "docs/"
+  scripts: "scripts/"
+
+constraints:
+  - "ZERO warnings (enforced)"
+  - "All tests must pass before merge"
 ```
+
+A complete starter template is available at `templates/PROJECT_CONFIG.yaml` in the root of this repository.
 
 ---
 

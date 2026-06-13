@@ -1,7 +1,7 @@
 # Universal Development Workflow
 
-> **Quick Links**: [Troubleshooting](WORKFLOW_TROUBLESHOOTING.md) | [Templates](WORKFLOW_TEMPLATES.md)  
-> **Configuration**: See [CONFIGURATION.md](CONFIGURATION.md) to adapt for your stack
+> **Configuration**: See [CONFIGURATION.md](CONFIGURATION.md) to adapt the workflow to your stack.  
+> Additional Superpowers workflow documents are available in the [upstream repository](https://github.com/obra/superpowers).
 
 ---
 
@@ -65,7 +65,7 @@ Q2: What type of work is this?
    Unclear → Ask user to clarify
 
 Q3: Are you stuck?
-   YES → Read [Troubleshooting](WORKFLOW_TROUBLESHOOTING.md)
+   YES → See the [upstream Superpowers troubleshooting guide](https://github.com/obra/superpowers) for common issues
    NO → Follow mode workflow below
 ```
 
