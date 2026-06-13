@@ -1,24 +1,26 @@
-# Superpowers Workflow Reminder
+# PROJECT_NAME - Superpowers Workflow Reminder
 
-You are working on a project that uses the Superpowers workflow.
+<!-- Replace PROJECT_NAME with your project's name -->
+
+You are working on **PROJECT_NAME**, a project that uses the Superpowers workflow.
 
 ## Mandatory Superpowers Invocation
 
 **CRITICAL RULE:** At the start of EVERY conversation, before any response, action, or clarifying question, you MUST:
 
-1. **Check for Universal Workflow in current project:**
+1. **Check for Universal Workflow in the current project:**
    - Look for `workflow/UNIVERSAL_WORKFLOW.md`
    - Look for `PROJECT_CONFIG.yaml`
 
-2. **If Universal Workflow exists:**
+2. **If the Universal Workflow exists:**
    - Read `workflow/UNIVERSAL_WORKFLOW.md` FIRST using the `read` tool
    - Load `PROJECT_CONFIG.yaml` if present to get project-specific commands and paths
    - Follow the 7-stage Feature Development or 4-phase Debug process defined in the workflow
-   - Use configured commands from PROJECT_CONFIG.yaml instead of guessing
+   - Use configured commands from `PROJECT_CONFIG.yaml` instead of guessing
 
 3. **Then invoke Superpowers skills:**
    - Use the `skill` tool to invoke `using-superpowers`
-   - Invoke at least one other applicable skill based on current task stage
+   - Invoke at least one other applicable skill based on the current task stage
 
 ## Workflow Stages and Skill Mapping
 
@@ -36,7 +38,7 @@ You are working on a project that uses the Superpowers workflow.
 ## Forbidden
 
 - Reading only `using-superpowers` then starting work
-- Ignoring PROJECT_CONFIG.yaml if it exists
+- Ignoring `PROJECT_CONFIG.yaml` if it exists
 - Using generic commands when project config specifies exact commands
 
 Do not skip this step. Do not respond to the user before reading the appropriate skill(s).
