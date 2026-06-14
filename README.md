@@ -1,6 +1,6 @@
 # OpenCode Superpowers
 
-Install and configure the [Superpowers](https://github.com/awdemos/opencode-superpowers) workflow for [OpenCode](https://github.com/opencode-ai/opencode/).
+Install and configure the [Superpowers](https://github.com/obra/superpowers) workflow for [OpenCode](https://opencode.ai).
 
 Superpowers is a workflow system for AI coding assistants that enforces best practices like:
 
@@ -21,13 +21,15 @@ Add the upstream Superpowers plugin to your `opencode.json`:
 
 Restart OpenCode. The plugin registers all Superpowers skills automatically.
 
-If you also want the project-level workflow templates (`AGENTS.md` reminder, Universal Workflow, `PROJECT_CONFIG.yaml`), see the rest of this README.
+Verify by asking: **"Tell me about your superpowers."**
+
+See `SKILL.md` for project-level templates.
 
 ## What's in this repository
 
 | Path | Purpose |
 |------|---------|
-| `SKILL.md` | **Start here.** Full installation skill for OpenCode, including migration steps from the old symlink install. |
+| `SKILL.md` | **Start here.** Installation skill for OpenCode and project-level workflow templates. |
 | `prompts/AGENTS.md.template` | Project-level `AGENTS.md` template. Copy to your project root and customize. |
 | `prompts/superpowers-reminder.md` | Inline reminder variant for clients that support system reminders. |
 | `workflow/UNIVERSAL_WORKFLOW.md` | Complete 7-stage feature / 4-phase debug workflow. |
