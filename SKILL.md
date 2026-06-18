@@ -5,23 +5,21 @@ description: Use when installing, migrating, or configuring the Superpowers work
 
 # Install Superpowers for OpenCode
 
-This skill installs the [Superpowers](https://github.com/obra/superpowers) workflow system for [OpenCode](https://opencode.ai). Superpowers enforces best practices such as TDD, systematic debugging, structured planning, and subagent-driven development.
+This skill installs the [Superpowers](https://github.com/awdemos/opencode-superpowers) workflow system for [OpenCode](https://opencode.ai). Superpowers enforces best practices such as TDD, systematic debugging, structured planning, and subagent-driven development.
 
 ## Install
 
-Add the upstream plugin to `opencode.json` (global or project-level):
+Add this plugin to `opencode.json` (global or project-level):
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/awdemos/opencode-superpowers.git"]
 }
 ```
 
 Restart OpenCode. The plugin registers all Superpowers skills automatically.
 
 Verify by asking: **"Tell me about your superpowers."**
-
-For full plugin documentation, see the [upstream OpenCode guide](https://github.com/obra/superpowers/blob/main/docs/README.opencode.md).
 
 ## Optional: Project-Level Templates
 
