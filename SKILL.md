@@ -23,22 +23,15 @@ Verify by asking: **"Tell me about your superpowers."**
 
 ## Optional: Project-Level Templates
 
-To add the Universal Workflow, a project config, and a per-project reminder in addition to the plugin:
+To add a project config and a per-project reminder in addition to the plugin:
 
-1. Copy workflow files into your project:
-
-   ```bash
-   cp /path/to/opencode-superpowers/workflow/UNIVERSAL_WORKFLOW.md your-project/workflow/
-   cp /path/to/opencode-superpowers/workflow/CONFIGURATION.md your-project/workflow/
-   ```
-
-2. Copy the config template and set your stack:
+1. Copy the config template and set your stack:
 
    ```bash
    cp /path/to/opencode-superpowers/templates/PROJECT_CONFIG.yaml your-project/PROJECT_CONFIG.yaml
    ```
 
-3. Copy the reminder into your project root:
+2. Copy the reminder into your project root:
 
    ```bash
    cp /path/to/opencode-superpowers/prompts/AGENTS.md.template your-project/AGENTS.md
@@ -52,7 +45,7 @@ Remove the plugin line from `opencode.json` and restart OpenCode. Also remove an
 
 ## For AI Assistants
 
-When this skill is invoked, install via the plugin. After installation, guide the user to invoke Superpowers skills via OpenCode's `skill` tool, copy `templates/PROJECT_CONFIG.yaml` and `prompts/AGENTS.md.template` if they want project-level enforcement, and read `workflow/UNIVERSAL_WORKFLOW.md` for the workflow stages.
+When this skill is invoked, install via the plugin. After installation, guide the user to invoke Superpowers skills via OpenCode's `skill` tool, and copy `templates/PROJECT_CONFIG.yaml` and `prompts/AGENTS.md.template` if they want project-level enforcement.
 
 ---
 

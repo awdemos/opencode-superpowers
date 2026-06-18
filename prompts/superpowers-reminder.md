@@ -4,17 +4,14 @@ You are working on **PROJECT_NAME**, a project that uses the Superpowers workflo
 
 Before responding to the user's message, you MUST invoke the Superpowers workflow.
 
-**CRITICAL: Check for Universal Workflow First**
+**CRITICAL: Check Project Config First**
 
-1. **Check if the workflow exists in the current project:**
-   - Look for `workflow/UNIVERSAL_WORKFLOW.md`
+1. **Check for project config in the current project:**
    - Look for `PROJECT_CONFIG.yaml`
 
-2. **If the Universal Workflow exists:**
-   - Read `workflow/UNIVERSAL_WORKFLOW.md` FIRST (before `using-superpowers`)
-   - Load `PROJECT_CONFIG.yaml` if present
-   - Use the configured commands and paths from the project config
-   - Follow the 7-stage Feature Development or 4-phase Debug process
+2. **If `PROJECT_CONFIG.yaml` exists:**
+   - Load it to get project-specific commands and paths
+   - Use the configured commands instead of guessing
 
 3. **Then invoke Superpowers skills:**
    - Use the `skill` tool to invoke `using-superpowers`

@@ -8,17 +8,11 @@ You are working on **PROJECT_NAME**, a project that uses the Superpowers workflo
 
 **CRITICAL RULE:** At the start of EVERY conversation, before any response, action, or clarifying question, you MUST:
 
-1. **Check for Universal Workflow in the current project:**
-   - Look for `workflow/UNIVERSAL_WORKFLOW.md`
+1. **Check for project-level config:**
    - Look for `PROJECT_CONFIG.yaml`
+   - Load it if present to get project-specific commands and paths
 
-2. **If the Universal Workflow exists:**
-   - Read `workflow/UNIVERSAL_WORKFLOW.md` FIRST using the `read` tool
-   - Load `PROJECT_CONFIG.yaml` if present to get project-specific commands and paths
-   - Follow the 7-stage Feature Development or 4-phase Debug process defined in the workflow
-   - Use configured commands from `PROJECT_CONFIG.yaml` instead of guessing
-
-3. **Then invoke Superpowers skills:**
+2. **Invoke Superpowers skills:**
    - Use the `skill` tool to invoke `using-superpowers`
    - Invoke at least one other applicable skill based on the current task stage
 

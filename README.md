@@ -32,9 +32,7 @@ See `SKILL.md` for project-level templates.
 | `SKILL.md` | **Start here.** Installation skill for OpenCode and project-level workflow templates. |
 | `prompts/AGENTS.md.template` | Project-level `AGENTS.md` template. Copy to your project root and customize. |
 | `prompts/superpowers-reminder.md` | Inline reminder variant for clients that support system reminders. |
-| `workflow/UNIVERSAL_WORKFLOW.md` | Complete 7-stage feature / 4-phase debug workflow. |
-| `workflow/CONFIGURATION.md` | Guide for adapting the workflow to your stack. |
-| `templates/PROJECT_CONFIG.yaml` | **Copy this** (not `CONFIGURATION.md`) to your project root as `PROJECT_CONFIG.yaml`. |
+| `templates/PROJECT_CONFIG.yaml` | **Copy this** to your project root as `PROJECT_CONFIG.yaml`. |
 | `scripts/validate-links.sh` | Repository health check: internal markdown links. |
 | `skills/` | Vendored Superpowers skills (used when this repository is cloned as the install source). |
 

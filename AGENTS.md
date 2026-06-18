@@ -12,7 +12,6 @@ This repository is an **OpenCode skill installer** for the Superpowers workflow.
 - `SKILL.md` — OpenCode skill definition (main entry point).
 - `prompts/AGENTS.md.template` — Template for project-level `AGENTS.md` files. Copied into *other* projects, not used in this repo.
 - `prompts/superpowers-reminder.md` — Inline system-reminder-style prompt template, also for *other* projects.
-- `workflow/` — Universal Development Workflow documents (`UNIVERSAL_WORKFLOW.md`, `CONFIGURATION.md`) that get copied into consumer projects.
 - `agents/` — Intentionally empty. OpenCode does not use Kimi-style agent config files; do not add them here.
 
 ## Conventions
