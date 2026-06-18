@@ -1,6 +1,6 @@
 # OpenCode Superpowers
 
-Install and configure the [Superpowers](https://github.com/obra/superpowers) workflow for [OpenCode](https://opencode.ai).
+This repository installs and configures the [Superpowers](https://github.com/awdemos/opencode-superpowers) workflow for [OpenCode](https://opencode.ai).
 
 Superpowers is a workflow system for AI coding assistants that enforces best practices like:
 
@@ -11,11 +11,11 @@ Superpowers is a workflow system for AI coding assistants that enforces best pra
 
 ## Quick Start (recommended)
 
-Add the upstream Superpowers plugin to your `opencode.json`:
+Add this repository as a plugin in your `opencode.json`:
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/awdemos/opencode-superpowers.git"]
 }
 ```
 
