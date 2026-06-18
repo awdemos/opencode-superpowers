@@ -17,7 +17,7 @@ Add this plugin to `opencode.json` (global or project-level):
 }
 ```
 
-Restart OpenCode. The plugin registers all Superpowers skills automatically.
+Restart OpenCode. The plugin registers the Superpowers skills and injects a lean per-session bootstrap.
 
 Verify by asking: **"Tell me about your superpowers."**
 

@@ -6,15 +6,15 @@
 
 ## Recommended Install
 
-Add the upstream Superpowers plugin to the `plugin` array in your `opencode.json` (global or project-level):
+Add this Superpowers plugin to the `plugin` array in your `opencode.json` (global or project-level):
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git"]
+  "plugin": ["superpowers@git+https://github.com/awdemos/opencode-superpowers.git"]
 }
 ```
 
-Restart OpenCode. The plugin installs through OpenCode's plugin manager and registers all skills automatically.
+Restart OpenCode. The plugin registers the Superpowers skills and injects a lean bootstrap at the start of each session.
 
 Verify by asking: _"Tell me about your superpowers"_.
 
@@ -22,7 +22,7 @@ OpenCode uses its own plugin install. If you also use Claude Code, Codex, or ano
 
 ## Optional: Project-Level Templates
 
-This repository (`opencode-superpowers`) provides optional project-level templates that complement the plugin:
+This repository (`awdemos/opencode-superpowers`) provides optional project-level templates that complement the plugin:
 
 | File | Purpose |
 |------|---------|
@@ -56,7 +56,7 @@ To pin a specific version:
 
 ```json
 {
-  "plugin": ["superpowers@git+https://github.com/obra/superpowers.git#v5.0.3"]
+  "plugin": ["superpowers@git+https://github.com/awdemos/opencode-superpowers.git#v1.0.0"]
 }
 ```
 
@@ -73,7 +73,7 @@ To pin a specific version:
 Some Windows OpenCode builds have upstream installer issues with git-backed plugin specs, including cache paths for `git+https` URLs and Bun not finding `git.exe` even when it works in a normal terminal. If OpenCode cannot install the plugin, try installing with system npm and pointing OpenCode at the local package:
 
 ```powershell
-npm install superpowers@git+https://github.com/obra/superpowers.git --prefix "$HOME\.config\opencode"
+npm install superpowers@git+https://github.com/awdemos/opencode-superpowers.git --prefix "$HOME\.config\opencode"
 ```
 
 Then use the installed package path in `opencode.json`:
@@ -100,6 +100,4 @@ When Superpowers skills reference Claude Code tools:
 
 ## Getting Help
 
-- Report issues: https://github.com/obra/superpowers/issues
-- Full documentation: https://github.com/obra/superpowers/blob/main/docs/README.opencode.md
-- This installer repo: https://github.com/YOUR_USERNAME/opencode-superpowers
+- This installer repo: https://github.com/awdemos/opencode-superpowers
