@@ -12,10 +12,20 @@ This repository is an **OpenCode skill installer** for the Superpowers workflow.
 - `SKILL.md` — OpenCode skill definition (main entry point).
 - `prompts/AGENTS.md.template` — Template for project-level `AGENTS.md` files. Copied into *other* projects, not used in this repo.
 - `prompts/superpowers-reminder.md` — Inline system-reminder-style prompt template, also for *other* projects.
-- `agents/` — Intentionally empty. OpenCode does not use Kimi-style agent config files; do not add them here.
+- `agents/` — Contains only `README.md` explaining that OpenCode does not use Kimi-style agent config files. Do not add agent config files here.
 
 ## Conventions
 
 - **No build/test/lint commands exist.** Do not attempt to run `npm test`, `pytest`, `make`, etc.
 - Changes to installation logic must be reflected in both `SKILL.md` and `README.md`.
 - Preserve the distinction between this repo's own docs and the templates in `prompts/` that users copy elsewhere.
+
+## Deployment
+
+No Dagger module or recognized deployment configuration was found.
+
+General redeploy process:
+
+1. Commit and push changes to the default branch.
+2. Trigger the relevant CI/CD pipeline or run the documented deploy command.
+3. If the project is served via GitHub Pages, the site redeploys automatically after the push.
