@@ -28,8 +28,6 @@ This repository (`awdemos/opencode-superpowers`) provides optional project-level
 |------|---------|
 | `prompts/AGENTS.md.template` | Project-level reminder to load the workflow and invoke skills. Copy to your project root as `AGENTS.md`. |
 | `templates/PROJECT_CONFIG.yaml` | **Copy this** to your project root as `PROJECT_CONFIG.yaml` and fill in your stack. |
-| `workflow/UNIVERSAL_WORKFLOW.md` | The full 7-stage feature / 4-phase debug workflow. |
-| `workflow/CONFIGURATION.md` | A guide explaining every key in `PROJECT_CONFIG.yaml`. |
 
 ## Migrating from the Old Symlink-Based Install
 
