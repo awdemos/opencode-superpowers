@@ -1,3 +1,5 @@
 .omo/
 .opencode/node_modules/
 node_modules/
+.desloppify/
+scorecard.png
